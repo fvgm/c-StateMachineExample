@@ -97,6 +97,7 @@ void spinState(void) {
 void FinishState(void) {
     // actions to do at the end of cycle.
     printf("\n(%d) - We finished the entire cycle.\n", curr_state);
+    printf("Trigger an audible alarm.\n");
     exit(0);
 }
 
@@ -104,6 +105,11 @@ void initializeSM(void) {
     // do some stuff before start the cycle
     // configure I/O, etc.
     printf("\nThis is the initialization state.\n");
+    printf("Verifying the pressure of inlet water source.\n");
+    printf("Checking if the door is safely closed.\n");
+    printf("OK.\n");
+
+    // go to first state
     curr_state = WASH_STATE;
 }
 
