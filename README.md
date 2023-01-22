@@ -7,6 +7,5 @@ Based on work by J. L. Garbini.
 In this example, a simple washing machine cycle was modelled. Can be adapted for any another cycle made by sequenced well defined steps.
 This state machine example was based on the following flowchart:
 
-<p align="center" width="100%">
 ![A Simple Washing Machine Flowchart.!](/assets/washer_machine_flowchart.png "State Machine Flowchart")
-</p>
+
